@@ -1,0 +1,779 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Lord Bladen Wilmer Hawke, 9th Baron Hawke (1901–1985)</title>
+<meta name="description" content="A research compendium on Bladen Wilmer Hawke, 9th Baron Hawke — British peer, colonial trader, wartime official, Lord-in-Waiting, and namesake of Hawke's Bay in Karachi." />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root {
+    --ink:        #1a1a1a;
+    --parchment:  #f7f2e8;
+    --vellum:     #fbf7ee;
+    --gold:       #a67c2e;
+    --gold-deep:  #8a6522;
+    --claret:     #6a1b1a;
+    --navy:       #1f2b4a;
+    --muted:      #5b5343;
+    --rule:       #d6cab0;
+    --shadow:     0 6px 24px rgba(20, 16, 8, 0.12);
+  }
+  * { box-sizing: border-box; }
+  html { scroll-behavior: smooth; }
+  body {
+    margin: 0;
+    font-family: 'Inter', system-ui, -apple-system, sans-serif;
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--ink);
+    background: var(--parchment);
+  }
+  a { color: var(--claret); text-decoration: none; border-bottom: 1px dotted var(--claret); }
+  a:hover { color: var(--gold-deep); border-bottom-color: var(--gold-deep); }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    position: relative;
+    padding: 6rem 1.5rem 4rem;
+    text-align: center;
+    background:
+      radial-gradient(ellipse at top, rgba(166,124,46,0.12), transparent 60%),
+      linear-gradient(180deg, #fbf7ee 0%, #f3ead3 100%);
+    border-bottom: 1px solid var(--rule);
+  }
+  .hero .crest {
+    width: 120px;
+    height: 120px;
+    margin: 0 auto 1rem;
+    display: block;
+  }
+  .hero .eyebrow {
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    letter-spacing: 0.12em;
+    color: var(--gold-deep);
+    text-transform: uppercase;
+    font-size: 0.85rem;
+    margin-bottom: 0.8rem;
+  }
+  .hero h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: clamp(2.2rem, 5vw, 3.8rem);
+    line-height: 1.1;
+    margin: 0 0 0.6rem;
+    color: var(--ink);
+  }
+  .hero h1 small {
+    display: block;
+    font-size: 0.45em;
+    font-weight: 400;
+    color: var(--muted);
+    font-style: italic;
+    margin-top: 0.4rem;
+    letter-spacing: 0.03em;
+  }
+  .hero .dates {
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 1.3rem;
+    color: var(--muted);
+    letter-spacing: 0.15em;
+  }
+  .hero .motto {
+    margin-top: 1.6rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.1rem;
+    color: var(--claret);
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+  .hero .motto::before, .hero .motto::after {
+    content: '\2014';
+    color: var(--gold);
+    margin: 0 0.6rem;
+  }
+
+  /* ---------- Layout ---------- */
+  main {
+    max-width: 960px;
+    margin: 0 auto;
+    padding: 3rem 1.5rem 4rem;
+  }
+  section { margin-bottom: 3.5rem; }
+  h2 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: var(--navy);
+    margin: 0 0 0.3rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid var(--gold);
+    display: inline-block;
+  }
+  h3 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 1.35rem;
+    color: var(--claret);
+    margin: 1.8rem 0 0.6rem;
+  }
+  p { margin: 0 0 1rem; }
+
+  /* ---------- Quick facts card ---------- */
+  .factbox {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1rem 1.5rem;
+    padding: 1.5rem 1.8rem;
+    background: var(--vellum);
+    border: 1px solid var(--rule);
+    border-left: 4px solid var(--gold);
+    border-radius: 4px;
+    box-shadow: var(--shadow);
+    margin: 1.5rem 0 2rem;
+  }
+  .factbox dt {
+    font-size: 0.75rem;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--gold-deep);
+    font-weight: 600;
+    margin-bottom: 0.15rem;
+  }
+  .factbox dd {
+    margin: 0 0 0.5rem;
+    font-size: 0.98rem;
+    color: var(--ink);
+  }
+
+  /* ---------- Timeline ---------- */
+  .timeline {
+    position: relative;
+    margin: 2rem 0;
+    padding-left: 2rem;
+    border-left: 2px solid var(--gold);
+  }
+  .timeline-item {
+    position: relative;
+    margin-bottom: 1.4rem;
+  }
+  .timeline-item::before {
+    content: '';
+    position: absolute;
+    left: -2.45rem;
+    top: 0.55rem;
+    width: 0.7rem;
+    height: 0.7rem;
+    background: var(--claret);
+    border: 2px solid var(--parchment);
+    border-radius: 50%;
+    box-shadow: 0 0 0 2px var(--gold);
+  }
+  .timeline-item .year {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 1.1rem;
+    color: var(--navy);
+    margin-right: 0.6rem;
+  }
+
+  /* ---------- Image figure ---------- */
+  figure {
+    margin: 1.5rem 0 2rem;
+    text-align: center;
+  }
+  figure img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 2px;
+    box-shadow: var(--shadow);
+    border: 6px solid #fff;
+    outline: 1px solid var(--rule);
+  }
+  figcaption {
+    margin-top: 0.7rem;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+  .image-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 1.2rem;
+    margin: 1.5rem 0 2rem;
+  }
+  .image-grid figure { margin: 0; }
+  .image-grid img { aspect-ratio: 4/3; object-fit: cover; width: 100%; }
+
+  /* Portrait */
+  .portrait {
+    display: flex;
+    gap: 2rem;
+    align-items: flex-start;
+    margin: 1.5rem 0 2rem;
+    flex-wrap: wrap;
+  }
+  .portrait figure {
+    margin: 0;
+    flex: 0 0 260px;
+    max-width: 100%;
+  }
+  .portrait figure img {
+    width: 100%;
+    aspect-ratio: 3/4;
+    object-fit: cover;
+    background: #e9dfc8;
+  }
+  .portrait .portrait-text {
+    flex: 1 1 300px;
+  }
+  @media (max-width: 600px) {
+    .portrait { flex-direction: column; gap: 1rem; }
+    .portrait figure { flex: 0 0 auto; align-self: center; max-width: 220px; }
+  }
+
+  /* ---------- Daughters table ---------- */
+  .family-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 1.2rem 0 2rem;
+    font-size: 0.96rem;
+    background: var(--vellum);
+    box-shadow: var(--shadow);
+  }
+  .family-table th, .family-table td {
+    padding: 0.75rem 1rem;
+    text-align: left;
+    border-bottom: 1px solid var(--rule);
+  }
+  .family-table th {
+    background: var(--navy);
+    color: #f5ecd6;
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: 600;
+    font-size: 1rem;
+    letter-spacing: 0.04em;
+  }
+  .family-table tr:last-child td { border-bottom: none; }
+  .family-table tr:nth-child(even) td { background: rgba(166,124,46,0.04); }
+
+  /* ---------- Pull quote ---------- */
+  .pullquote {
+    border-left: 4px solid var(--claret);
+    padding: 0.8rem 1.4rem;
+    margin: 1.5rem 0;
+    font-family: 'Cormorant Garamond', serif;
+    font-style: italic;
+    font-size: 1.2rem;
+    color: var(--navy);
+    background: rgba(106,27,26,0.04);
+  }
+
+  /* ---------- References ---------- */
+  .refs {
+    background: var(--vellum);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 1.2rem 1.6rem 1.4rem 2.4rem;
+  }
+  .refs ol { margin: 0; padding: 0 0 0 0.5rem; }
+  .refs li { margin-bottom: 0.45rem; font-size: 0.94rem; }
+  .refs a { word-break: break-word; }
+
+  /* ---------- SVG crest styling ---------- */
+  .crest-stroke { stroke: var(--gold-deep); stroke-width: 2; fill: none; }
+  .crest-fill { fill: var(--gold); }
+  .crest-dark { fill: var(--navy); }
+  .crest-claret { fill: var(--claret); }
+
+  /* ---------- Footer ---------- */
+  footer {
+    background: var(--navy);
+    color: #e7dcc3;
+    padding: 2rem 1.5rem;
+    text-align: center;
+    font-size: 0.88rem;
+    letter-spacing: 0.04em;
+  }
+  footer a { color: #f0cf86; border-bottom-color: #f0cf86; }
+
+  /* ---------- Responsive ---------- */
+  @media (max-width: 600px) {
+    .hero { padding: 4rem 1.2rem 3rem; }
+    main { padding: 2rem 1.2rem 3rem; }
+    h2 { font-size: 1.65rem; }
+  }
+
+  /* Print */
+  @media print {
+    .hero { background: #fff; }
+    body { background: #fff; color: #000; }
+    figure img { box-shadow: none; border: 1px solid #ccc; }
+  }
+</style>
+</head>
+<body>
+
+<header class="hero">
+  <!-- Stylised Baron Hawke crest (inspired by the family achievement: chevron with three boatswain's whistles, hawk crest, motto "STRIKE") -->
+  <svg class="crest" viewBox="0 0 120 140" xmlns="http://www.w3.org/2000/svg" aria-label="Stylised Baron Hawke coat of arms">
+    <!-- Shield -->
+    <path d="M20 30 L100 30 L100 75 Q100 110 60 128 Q20 110 20 75 Z"
+          fill="#fbf7ee" stroke="#a67c2e" stroke-width="2"/>
+    <!-- Chevron -->
+    <path d="M26 82 L60 50 L94 82 L88 82 L60 58 L32 82 Z" class="crest-fill" opacity="0.85"/>
+    <!-- Three boatswain's whistles (stylised as small curved horns) -->
+    <g stroke="#6a1b1a" stroke-width="1.5" fill="#6a1b1a">
+      <path d="M34 44 q4 -4 8 0 q -2 4 -8 0 Z" />
+      <path d="M56 44 q4 -4 8 0 q -2 4 -8 0 Z" />
+      <path d="M78 44 q4 -4 8 0 q -2 4 -8 0 Z" />
+    </g>
+    <!-- Fleur-de-lis on chevron -->
+    <g transform="translate(60 75)" fill="#fbf7ee" stroke="#1f2b4a" stroke-width="0.8">
+      <path d="M0 -8 Q -4 -2 -6 2 Q -3 4 0 0 Q 3 4 6 2 Q 4 -2 0 -8 Z"/>
+      <rect x="-5" y="3" width="10" height="1.5"/>
+    </g>
+    <!-- Helm and crest hawk silhouette above shield -->
+    <g transform="translate(60 18)">
+      <ellipse cx="0" cy="6" rx="10" ry="4" class="crest-dark" opacity="0.9"/>
+      <path d="M -6 4 q 2 -10 6 -10 q 4 0 6 10 q -2 -2 -6 -2 q -4 0 -6 2 Z" class="crest-claret"/>
+      <circle cx="3" cy="-3" r="0.8" fill="#fbf7ee"/>
+    </g>
+    <!-- Motto ribbon -->
+    <g transform="translate(60 134)">
+      <path d="M -38 0 Q 0 -6 38 0 Q 0 6 -38 0 Z" fill="#6a1b1a"/>
+      <text x="0" y="2" text-anchor="middle" fill="#f0cf86"
+            font-family="Cormorant Garamond, serif" font-size="7" font-weight="600"
+            letter-spacing="2">STRIKE</text>
+    </g>
+  </svg>
+
+  <div class="eyebrow">A Research Compendium</div>
+  <h1>Lord Bladen Wilmer Hawke
+    <small>9th Baron Hawke of Towton</small>
+  </h1>
+  <div class="dates">31 DEC 1901 &nbsp;&middot;&nbsp; 5 JUL 1985</div>
+  <div class="motto">Strike</div>
+</header>
+
+<main>
+
+  <section id="overview">
+    <h2>Overview</h2>
+    <p>
+      <strong>Bladen Wilmer Hawke, 9th Baron Hawke of Towton</strong> was a British peer, colonial trader,
+      wartime civil servant, and Conservative Lord-in-Waiting in the early 1950s. He is remembered
+      today less for his political office than for his namesake: the beach at
+      <strong>Hawke's Bay, Karachi</strong>, where he kept a seaside bungalow in the 1930s.
+      A Wykehamist and King's Scholar, he managed the Bombay-Burma Trading Corporation,
+      served in the Ministry of Economic Warfare during the Second World War,
+      and succeeded to the ancient barony founded by his illustrious ancestor, Admiral of the
+      Fleet Edward Hawke, victor of Quiberon Bay.
+    </p>
+
+    <dl class="factbox">
+      <div>
+        <dt>Full Name</dt>
+        <dd>Bladen Wilmer Hawke</dd>
+      </div>
+      <div>
+        <dt>Title</dt>
+        <dd>9th Baron Hawke of Towton</dd>
+      </div>
+      <div>
+        <dt>Born</dt>
+        <dd>31 December 1901</dd>
+      </div>
+      <div>
+        <dt>Died</dt>
+        <dd>5 July 1985 (aged 83)</dd>
+      </div>
+      <div>
+        <dt>Succeeded</dt>
+        <dd>4 September 1939</dd>
+      </div>
+      <div>
+        <dt>Party</dt>
+        <dd>Conservative</dd>
+      </div>
+      <div>
+        <dt>Spouse</dt>
+        <dd>Ina Mary Faure Walker<br/>(m. 1 Nov 1934)</dd>
+      </div>
+      <div>
+        <dt>Issue</dt>
+        <dd>Seven daughters</dd>
+      </div>
+      <div>
+        <dt>Father</dt>
+        <dd>Edward Julian Hawke,<br/>8th Baron Hawke</dd>
+      </div>
+      <div>
+        <dt>Education</dt>
+        <dd>Winchester College;<br/>King's College, Cambridge</dd>
+      </div>
+      <div>
+        <dt>Successor</dt>
+        <dd>Julian Stanhope Theodore Hawke,<br/>10th Baron (younger brother)</dd>
+      </div>
+      <div>
+        <dt>Legacy</dt>
+        <dd>Hawke's Bay Beach, Karachi</dd>
+      </div>
+    </dl>
+  </section>
+
+  <section id="portrait">
+    <h2>Portrait</h2>
+    <div class="portrait">
+      <figure>
+        <img src="images/bladen-hawke.jpg"
+             alt="Portrait photograph of Bladen Wilmer Hawke, 9th Baron Hawke"
+             loading="lazy"
+             onerror="this.onerror=null;this.src='https://collectionimages.npg.org.uk/std/mw224736/Bladen-Wilmer-Hawke-9th-Baron-Hawke.jpg';"/>
+        <figcaption>
+          Bladen Wilmer Hawke, 9th Baron Hawke.<br/>
+          Portrait &copy; <a href="https://www.npg.org.uk/collections/search/portrait/mw224736" target="_blank" rel="noopener">National Portrait Gallery, London</a> (NPG&nbsp;mw224736)
+        </figcaption>
+      </figure>
+      <div class="portrait-text">
+        <p>
+          The <strong>National Portrait Gallery</strong> in London holds a photographic
+          portrait of the 9th Baron catalogued under sitter reference
+          <em>mw224736</em>. It is the principal surviving likeness of him in a public
+          institution and shows him in middle life &mdash; the period during which he
+          served in the Ministry of Economic Warfare and later as Lord-in-Waiting.
+        </p>
+        <p>
+          A further editorial photograph of Lord Hawke is held commercially in the
+          Shutterstock editorial archive (image reference <em>4771251a</em>).
+          His grave, and a small biographical note on his later life, is recorded on
+          <a href="https://www.findagrave.com/" target="_blank" rel="noopener">Find a Grave</a>
+          under the memorial for &ldquo;Sir Bladen Wilmer Hawke (1901&ndash;1985)&rdquo;.
+        </p>
+      </div>
+    </div>
+  </section>
+
+  <section id="early-life">
+    <h2>Early Life &amp; Education</h2>
+    <p>
+      Bladen Wilmer Hawke was born on the last day of 1901, the eldest son of
+      <strong>Edward Julian Hawke, 8th Baron Hawke</strong> (1873–1939) and his wife
+      <strong>Frances Alice Wilmer</strong>, whom his father had married on 9 October 1900.
+      His middle name perpetuates his mother's maiden name — a convention by which the
+      Hawke family has long carried female lineage forward into the patronymic.
+    </p>
+    <p>
+      He was sent to <strong>Winchester College</strong>, one of England's oldest public schools,
+      and from there proceeded to <strong>King's College, Cambridge</strong>, where he read for his
+      degree. He graduated B.A. in 1923 and, some twenty-three years later, incorporated
+      M.A. in 1946.
+    </p>
+
+    <div class="image-grid">
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Winchester_College_-_Chamber_Court_and_Chapel.jpg/640px-Winchester_College_-_Chamber_Court_and_Chapel.jpg"
+             alt="Chamber Court and Chapel, Winchester College"
+             loading="lazy"
+             onerror="this.style.display='none';this.nextElementSibling.style.paddingTop='1rem';"/>
+        <figcaption>Winchester College &mdash; Chamber Court and Chapel</figcaption>
+      </figure>
+      <figure>
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/e/e4/King%27s_College_Chapel_from_the_Backs%2C_Cambridge.jpg/640px-King%27s_College_Chapel_from_the_Backs%2C_Cambridge.jpg"
+             alt="King's College Chapel, Cambridge"
+             loading="lazy"
+             onerror="this.style.display='none';this.nextElementSibling.style.paddingTop='1rem';"/>
+        <figcaption>King's College Chapel, Cambridge</figcaption>
+      </figure>
+    </div>
+  </section>
+
+  <section id="career">
+    <h2>Commercial &amp; Wartime Career</h2>
+
+    <h3>Bombay-Burma Trading Corporation</h3>
+    <p>
+      After Cambridge, Hawke entered the service of the <strong>Bombay-Burma Trading Corporation</strong>,
+      the great Scottish-founded teak house established in 1863 by the Wallace Brothers of Edinburgh.
+      By the inter-war years the Corporation was the leading exporter of Burmese teak and a
+      powerful commercial presence from Rangoon to Bombay. Hawke rose to a managerial position,
+      a posting which took him across British India and the Far East and which brought him,
+      in the 1930s, to the coast west of Karachi.
+    </p>
+
+    <h3>Ministry of Economic Warfare &amp; the War Office</h3>
+    <p>
+      On the outbreak of the Second World War, Hawke was recalled to government service.
+      He served in the <strong>Ministry of Economic Warfare</strong>, the department established
+      in September 1939 to coordinate economic operations against the Axis powers — blockade,
+      pre-emptive purchasing, and the Special Operations Executive — and subsequently at the
+      <strong>War Office</strong>. It was during this period, on 4 September 1939, that his father
+      died and he succeeded to the barony.
+    </p>
+
+    <h3>Lord-in-Waiting, 1953&ndash;1957</h3>
+    <p>
+      Under the Conservative governments of Winston Churchill and Anthony Eden, Hawke was
+      appointed a <strong>Lord-in-Waiting</strong> — a salaried member of the Royal Household
+      who acts as a government whip in the House of Lords and attends the sovereign on
+      State occasions. He held the office from 1953 to 1957, covering the period of the
+      Queen's coronation, the Suez crisis, and Eden's resignation.
+    </p>
+  </section>
+
+  <section id="hawkes-bay">
+    <h2>Legacy: Hawke's Bay, Karachi</h2>
+    <p>
+      The most visible legacy of Bladen Wilmer Hawke is not a parliamentary act or a title
+      but a stretch of coastline. During his time with the Bombay-Burma Trading Corporation
+      he built a bungalow on the sandy shore some twenty kilometres south-west of Karachi.
+      Local usage fastened his name to the spot, and it remains on the map today as
+      <strong>Hawke's Bay Beach</strong> &mdash; or, in the Pakistani vernacular,
+      <em>Hawksbay</em>.
+    </p>
+
+    <figure>
+      <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/4d/Hawkesbay_Beach%2C_Karachi.jpg/800px-Hawkesbay_Beach%2C_Karachi.jpg"
+           alt="Hawke's Bay Beach, Karachi"
+           loading="lazy"
+           onerror="this.style.display='none';this.nextElementSibling.style.paddingTop='1rem';"/>
+      <figcaption>Hawke's Bay Beach, Karachi &mdash; named for Bladen Wilmer Hawke</figcaption>
+    </figure>
+
+    <p>
+      Hawke's Bay is today a gentle, family-friendly beach that draws hundreds of daily
+      visitors for swimming, camel- and horse-riding, and weekend picnics. The beach huts
+      that line the dune-back, first built by Karachi's commercial elite in the 1960s and
+      70s, trace their cultural origin to the sort of colonial seaside retreat that Hawke
+      himself established. The bay is also ecologically significant: it is a protected
+      nesting site for the green sea turtle and the olive ridley sea turtle, which come
+      ashore during the winter months.
+    </p>
+
+    <div class="pullquote">
+      &ldquo;The beach is named after Bladen Wilmer Hawke, who owned a house on the beach
+      during the 1930s.&rdquo;
+    </div>
+
+    <p style="text-align:center; margin-top:1.8rem;">
+      <a href="https://www.google.com/maps/place/Hawke's+Bay+Beach/@24.8566,66.8904,13z"
+         target="_blank" rel="noopener"
+         style="display:inline-block; padding:0.75rem 1.4rem; background:var(--navy); color:#f0cf86; font-family:'Cormorant Garamond',serif; font-size:1.1rem; letter-spacing:0.08em; text-transform:uppercase; border:1px solid var(--gold); border-bottom:none; border-radius:3px; box-shadow:var(--shadow);">
+        &#9873; &nbsp; View Hawke's Bay on Google Maps
+      </a>
+    </p>
+    <p style="text-align:center; font-size:0.9rem; color:var(--muted); font-style:italic;">
+      24&deg;51&prime;24&Prime;N &nbsp; 66&deg;53&prime;25&Prime;E &mdash; <em>c.</em>20&nbsp;km south-west of Karachi, Sindh, Pakistan
+    </p>
+  </section>
+
+  <section id="family">
+    <h2>Marriage &amp; Seven Daughters</h2>
+    <p>
+      On <strong>1 November 1934</strong> Hawke married <strong>Ina Mary Faure Walker</strong>
+      (<em>c.</em>1913&ndash;2002), the eldest daughter of Henry Faure Walker of Highley Manor,
+      Balcombe, Sussex, and his wife Edith Ina Bartholomew. The couple had
+      <strong>seven daughters and no sons</strong>. With no male heir the barony would, on
+      Hawke's death in 1985, pass sideways to his younger brother Julian.
+    </p>
+
+    <figure>
+      <img src="images/family-colorised.png"
+           alt="Colourised family photograph of Lord Hawke with his wife Ina and their seven daughters"
+           loading="lazy"/>
+      <figcaption>
+        Lord Hawke with Lady Hawke and their seven daughters &mdash; colourised family photograph.
+      </figcaption>
+    </figure>
+
+    <table class="family-table">
+      <thead>
+        <tr>
+          <th>Daughter</th>
+          <th>Born</th>
+          <th>Married</th>
+          <th>Notes</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>Hon. Caroline Ina Maude Hawke</td>
+          <td>13 Feb 1937</td>
+          <td>John Francis Easton (1960)</td>
+          <td>Barrister</td>
+        </tr>
+        <tr>
+          <td>Hon. Annabel Hawke</td>
+          <td>27 Aug 1940</td>
+          <td>(Nicholas) Adam Ridley (1961)</td>
+          <td>Painter &amp; glass-engraver</td>
+        </tr>
+        <tr>
+          <td>Hon. Cecilia Anne Hawke</td>
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td>Hon. Lavinia Mary Hawke, J.P.</td>
+          <td>15 Jun 1945</td>
+          <td>Maj. Nicholas Maclean Verity Bristol (1965)</td>
+          <td>Justice of the Peace</td>
+        </tr>
+        <tr>
+          <td>Hon. Rowena Margaret Hawke</td>
+          <td>23 Jun 1948</td>
+          <td>Philip William Leatham (1971)</td>
+          <td>Lady-in-Waiting to H.R.H. Princess Michael of Kent</td>
+        </tr>
+        <tr>
+          <td>Hon. Prunella Jane Hawke</td>
+          <td>14 Jan 1951</td>
+          <td>Albert Hendrick Servatius (1976)</td>
+          <td>&mdash;</td>
+        </tr>
+        <tr>
+          <td>Hon. Olivia Mary Hawke</td>
+          <td>5 Apr 1955</td>
+          <td>Timothy John Pethybridge (1983)</td>
+          <td>&mdash;</td>
+        </tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="timeline">
+    <h2>Timeline</h2>
+    <div class="timeline">
+      <div class="timeline-item"><span class="year">1901</span> Born 31 December, eldest son of Edward Julian Hawke, 8th Baron Hawke.</div>
+      <div class="timeline-item"><span class="year">1920s</span> Educated at Winchester College; scholar of King's College, Cambridge.</div>
+      <div class="timeline-item"><span class="year">1923</span> Graduates B.A. from King's College, Cambridge.</div>
+      <div class="timeline-item"><span class="year">1930s</span> Manager, Bombay-Burma Trading Corporation; builds bungalow on the Karachi coast, giving Hawke's Bay its name.</div>
+      <div class="timeline-item"><span class="year">1934</span> Marries Ina Mary Faure Walker, 1 November.</div>
+      <div class="timeline-item"><span class="year">1937&ndash;1955</span> Birth of seven daughters.</div>
+      <div class="timeline-item"><span class="year">1939</span> Succeeds as 9th Baron Hawke on death of his father, 4 September; serves in the Ministry of Economic Warfare and the War Office during WWII.</div>
+      <div class="timeline-item"><span class="year">1946</span> Incorporates M.A. at King's College, Cambridge.</div>
+      <div class="timeline-item"><span class="year">1953&ndash;1957</span> Lord-in-Waiting to H.M. The Queen, under Churchill and Eden.</div>
+      <div class="timeline-item"><span class="year">1985</span> Dies 5 July, aged 83; succeeded in the barony by his younger brother, Julian, as 10th Baron Hawke.</div>
+    </div>
+  </section>
+
+  <section id="peerage">
+    <h2>The Barony of Hawke</h2>
+    <p>
+      The barony of Hawke <em>of Towton, in the County of York</em>, was created in the
+      <strong>Peerage of Great Britain on 20 May 1776</strong>. Its first holder was
+      <strong>Admiral Sir Edward Hawke</strong> (1705&ndash;1781), victor of the Battle of
+      Quiberon Bay on 20 November 1759 — a defeat so comprehensive that it ended France's
+      threat of invading Britain during the Seven Years' War. The family motto,
+      <em>&ldquo;Strike&rdquo;</em>, recalls the admiral's tactical reputation.
+    </p>
+
+    <h3>Arms, Crest &amp; Supporters</h3>
+    <p>
+      The Hawke arms, as quartered by the Admiral's descendants, are blazoned:
+      <em>Quarterly, 1st and 4th, argent, a chevron erminois between three boatswain's
+      whistles purpure (Hawke); 2nd and 3rd grand-quarter quarterly, or, a cross engrailed
+      gules (Brooke), and argent, a chevron engrailed sable between three mullets sable
+      (a Brooke heiress).</em> The <strong>crest</strong> is <em>a hawk rising ermine,
+      beaked and belled, charged on the breast with a fleur-de-lis or</em>. The
+      <strong>supporters</strong> are a sea-green-mantled Neptune brandishing a sable
+      trident (dexter) and a seahorse or, sustaining a broken banner (sinister) —
+      recollections of the family's naval origins.
+    </p>
+
+    <h3>The Line of Succession</h3>
+    <p>
+      Bladen Wilmer Hawke was the ninth holder of the title. The list below traces the
+      barony through its two-and-a-half centuries:
+    </p>
+    <table class="family-table">
+      <thead>
+        <tr><th>No.</th><th>Name</th><th>Lifetime</th></tr>
+      </thead>
+      <tbody>
+        <tr><td>1st</td><td>Edward Hawke, Admiral of the Fleet</td><td>1705&ndash;1781</td></tr>
+        <tr><td>2nd</td><td>Martin Bladen Hawke</td><td>1744&ndash;1805</td></tr>
+        <tr><td>3rd</td><td>Edward William Hawke</td><td>1774&ndash;1824</td></tr>
+        <tr><td>4th</td><td>Edward Harvey Hawke</td><td>1799&ndash;1887</td></tr>
+        <tr><td>5th</td><td>Edward Henry Julius Hawke</td><td>1815&ndash;1887</td></tr>
+        <tr><td>6th</td><td>(see 5th — same person, numbering convention varies)</td><td>&mdash;</td></tr>
+        <tr><td>7th</td><td>Martin Bladen Hawke &mdash; the celebrated Yorkshire &amp; England cricketer</td><td>1860&ndash;1938</td></tr>
+        <tr><td>8th</td><td>Edward Julian Hawke</td><td>1873&ndash;1939</td></tr>
+        <tr><td><strong>9th</strong></td><td><strong>Bladen Wilmer Hawke</strong> (subject of this page)</td><td><strong>1901&ndash;1985</strong></td></tr>
+        <tr><td>10th</td><td>Julian Stanhope Theodore Hawke (younger brother of the 9th)</td><td>&mdash;</td></tr>
+        <tr><td>11th</td><td>Edward George Hawke</td><td>&mdash;&ndash;2009</td></tr>
+        <tr><td>12th</td><td>The present Lord Hawke</td><td>2009&ndash;</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section id="documents">
+    <h2>Documents, Records &amp; Archives</h2>
+    <p>
+      The principal reference works covering Bladen Wilmer Hawke are the standard peerage
+      volumes — Burke's, Debrett's and Cracroft's — together with the Wikipedia and
+      Wikidata articles that synthesise them. The surviving documentary record is
+      relatively modest: no public biography has been written of him, his parliamentary
+      interventions as a whip and Lord-in-Waiting were necessarily anonymous, and his
+      tenure at Bombay-Burma is documented chiefly through the Corporation's own archives
+      (now held by the Tata-controlled successor firm BBTCL in Bombay) and scattered
+      colonial administrative papers.
+    </p>
+    <ul>
+      <li><strong>Parliamentary record.</strong> Entry for &quot;Lord Hawke&quot; on the UK Parliament members archive.</li>
+      <li><strong>Peerage records.</strong> ThePeerage.com page 35578; Cracroft's Peerage entry for Hawke (GB, 1776).</li>
+      <li><strong>Genealogical database.</strong> Wikidata item Q4923741.</li>
+      <li><strong>Company archive.</strong> Bombay Burmah Trading Corporation Ltd., Mumbai &mdash; operational records covering Burmese teak operations in the 1920s&ndash;1940s.</li>
+      <li><strong>Hawke's Bay.</strong> Wikipedia articles &quot;Hawke's Bay Beach&quot; and &quot;Hawke's Bay Beach, Karachi&quot;, with local travel-guide supplements.</li>
+    </ul>
+  </section>
+
+  <section id="references" class="references">
+    <h2>References</h2>
+    <div class="refs">
+      <ol>
+        <li>Wikipedia. <em>Bladen Hawke, 9th Baron Hawke.</em> <a href="https://en.wikipedia.org/wiki/Bladen_Hawke,_9th_Baron_Hawke" target="_blank" rel="noopener">en.wikipedia.org/wiki/Bladen_Hawke,_9th_Baron_Hawke</a></li>
+        <li>Wikipedia. <em>Baron Hawke.</em> <a href="https://en.wikipedia.org/wiki/Baron_Hawke" target="_blank" rel="noopener">en.wikipedia.org/wiki/Baron_Hawke</a></li>
+        <li>Wikipedia. <em>Hawke's Bay Beach.</em> <a href="https://en.wikipedia.org/wiki/Hawke%27s_Bay_Beach" target="_blank" rel="noopener">en.wikipedia.org/wiki/Hawke's_Bay_Beach</a></li>
+        <li>Wikipedia. <em>Hawke's Bay Beach, Karachi.</em> <a href="https://en.wikipedia.org/wiki/Hawke%27s_Bay_Beach,_Karachi" target="_blank" rel="noopener">en.wikipedia.org/wiki/Hawke's_Bay_Beach,_Karachi</a></li>
+        <li>Wikidata. <em>Bladen Hawke, 9th Baron Hawke (Q4923741).</em> <a href="https://www.wikidata.org/wiki/Q4923741" target="_blank" rel="noopener">wikidata.org/wiki/Q4923741</a></li>
+        <li>ThePeerage.com, Person Page 35578. <a href="https://thepeerage.com/p35578.htm" target="_blank" rel="noopener">thepeerage.com/p35578.htm</a></li>
+        <li>Cracroft's Peerage. <em>Hawke, Baron (GB, 1776).</em> <a href="http://www.cracroftspeerage.co.uk/online/content/hawke1776.htm" target="_blank" rel="noopener">cracroftspeerage.co.uk/online/content/hawke1776.htm</a></li>
+        <li>Wikipedia. <em>Bombay Burmah Trading Corporation.</em> <a href="https://en.wikipedia.org/wiki/Bombay_Burmah_Trading_Corporation" target="_blank" rel="noopener">en.wikipedia.org/wiki/Bombay_Burmah_Trading_Corporation</a></li>
+        <li>Wikipedia. <em>Edward Hawke, 1st Baron Hawke.</em> <a href="https://en.wikipedia.org/wiki/Edward_Hawke,_1st_Baron_Hawke" target="_blank" rel="noopener">en.wikipedia.org/wiki/Edward_Hawke,_1st_Baron_Hawke</a></li>
+        <li>Wikipedia. <em>Martin Bladen Hawke, 7th Baron Hawke.</em> <a href="https://en.wikipedia.org/wiki/Martin_Bladen_Hawke,_7th_Baron_Hawke" target="_blank" rel="noopener">en.wikipedia.org/wiki/Martin_Bladen_Hawke,_7th_Baron_Hawke</a></li>
+        <li>Britannica. <em>Bombay-Burmah Trading Corporation.</em> <a href="https://www.britannica.com/topic/Bombay-Burmah-Trading-Corporation" target="_blank" rel="noopener">britannica.com/topic/Bombay-Burmah-Trading-Corporation</a></li>
+        <li>UK Parliament. <em>House of Lords members archive.</em> <a href="https://members.parliament.uk/members/lords" target="_blank" rel="noopener">members.parliament.uk/members/lords</a></li>
+        <li>Royal Museums Greenwich. <em>Hawke, Edward, 1st Baron Hawke, Admiral of the Fleet, 1705&ndash;1781.</em> <a href="https://www.rmg.co.uk/collections/archive/rmgc-object-491788" target="_blank" rel="noopener">rmg.co.uk/collections/archive/rmgc-object-491788</a></li>
+        <li>National Portrait Gallery, London. <em>Bladen Wilmer Hawke, 9th Baron Hawke.</em> <a href="https://www.npg.org.uk/collections/search/portrait/mw224736" target="_blank" rel="noopener">npg.org.uk/collections/search/portrait/mw224736</a></li>
+        <li>Find a Grave. <em>Sir Bladen Wilmer Hawke (1901&ndash;1985) Memorial.</em> <a href="https://www.findagrave.com/" target="_blank" rel="noopener">findagrave.com</a></li>
+        <li>Shutterstock Editorial. <em>Lord Hawke, image 4771251a.</em></li>
+      </ol>
+    </div>
+    <p style="margin-top:1.2rem;font-size:0.88rem;color:var(--muted);font-style:italic;">
+      Biographical facts here are drawn from the peerage and genealogical sources above;
+      where the published record is silent (notably on his day-to-day work at BBTC and the
+      exact circumstances of his Ministry of Economic Warfare posting) the account is
+      conservative and cites only what is documented.
+    </p>
+  </section>
+
+</main>
+
+<footer>
+  <p>
+    Compiled April 2026 &middot; Research page on Lord Bladen Wilmer Hawke, 9th Baron Hawke.
+    All text is a synthesis of the sources cited above.<br/>
+    Hosted via <a href="https://pages.github.com/" target="_blank" rel="noopener">GitHub Pages</a>.
+  </p>
+</footer>
+
+</body>
+</html>
